@@ -1,0 +1,224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0311)https://passport.escience.cn/oauth2/authorize?response_type=code&redirect_uri=http%3A%2F%2Fcsp.escience.cn%2Fdct%2Flogin&client_id=63838&theme=csp&state=http%3A%2F%2Ficlpt18.csp.escience.cn%2Fdct%2Flogin%3Fsub%3D1%26state%3Dhttp%253A%252F%252Ficlpt18.csp.escience.cn%252Fdct%252Fpage%252F65555%253F&locale=en_US -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="./bootstrap.min.css">
+	<script type="text/javascript" src="./cookie.js"></script>
+	<script type="text/javascript" src="./respond.src.js"></script>
+	<title>iframe page</title>
+	<link rel="stylesheet" type="text/css" href="./oauth.css">
+	<link rel="stylesheet" type="text/css" href="./embed.css">
+	<!--[if IE 8]> 
+		<link rel="stylesheet" type="text/css" href="/css/embedIE8.css?v=v8_1_43"/>
+	<![endif]-->
+	<style type="text/css">
+	
+	form#loginForm {margin: 0;  }
+	@media (max-width:370px) {
+	.cst-controls span.error {margin: 0 0 -10px 0;}
+	.cst-controls a.cst-forget {width: 100%;margin: 0;}
+	form#loginForm {overflow: hidden;margin:40px 0 0 0 ;}
+	#userName, #password {width: 98%;}
+	
+	
+	
+	}
+	</style>
+</head>
+<body class="embed" style="background:transparent">
+	<!--[if IE 8]> 
+		<link rel="stylesheet" type="text/css" href="/css/embedIE8.css?v=v8_1_43"/>
+	<![endif]-->
+	<div class="cst-container-logined">redirecting,please wait...</div>
+	<div class="cst-container embed">
+		<p class="cst-title">
+			Sign in with CSTCloud passport
+			<span class="sup"><a tabindex="-1" href="https://passport.escience.cn/what-is-cstnet-passport.jsp" target="_blank">[?]</a></span>
+		</p>
+		<form id="loginForm" class="cst-oauth" action="https://passport.escience.cn/oauth2/authorize?client_id=63838&amp;redirect_uri=http%3A%2F%2Fcsp.escience.cn%2Fdct%2Flogin&amp;response_type=code&amp;state=http%3A%2F%2Ficlpt18.csp.escience.cn%2Fdct%2Flogin%3Fsub%3D1%26state%3Dhttp%253A%252F%252Ficlpt18.csp.escience.cn%252Fdct%252Fpage%252F65555%253F&amp;theme=csp" method="post" target="_parent" novalidate="novalidate">
+			<input type="hidden" id="login" value="">
+			<input type="hidden" name="pageinfo" value="userinfo">
+			<div class="cst-controls">
+              	<label class="control-label showBig" for="userName">
+					CSTCloud ID
+				</label>
+				<label class="control-label hideBig" for="userName">
+					CSTCloud ID
+					<span class="sup"><a href="https://passport.escience.cn/what-is-cstnet-passport.jsp" target="_blank">[?]</a></span>
+				</label>
+				<div class="controls">
+				 <div class="input-prepend">
+					<span class="add-on preparePopover" id="user" data-html="true" data-animation="false" data-trigger="click" data-placement="top" data-content="&lt;a tabindex=&#39;-1&#39; href=&#39;/what-is-cstnet-passport.jsp?locale=en_US&#39; target=&#39;blank&#39; &gt;What&#39;s CSTCloud passport?&lt;/a&gt;" data-original-title="" title="">
+						<a tabindex="-1" target="_blank" href="https://passport.escience.cn/what-is-cstnet-passport.jsp?locale=en_US" style="display:inline-block; width:20px; height:20px;"></a>
+					 </span>
+	           		<input tabindex="1" type="text" id="userName" placeholder="Email/Phone Number/User Name" name="userName" value="">
+	           		<span class="error">
+						
+						
+					</span>
+					</div>
+				</div>
+            </div>
+		    <div class="cst-controls">
+              	<label class="control-label" for="password">
+					Password
+				</label>
+				<div class="controls">
+				<div class="input-append">
+					<span class="add-on preparePopover" data-html="true" data-animation="false" data-trigger="click" data-placement="top" data-content="&lt;a tabindex=&#39;-1&#39; href=&#39;/help_https.jsp&#39; target=&#39;blank&#39; &gt;sign in using https secure connection&lt;/a&gt;" id="lockImg" data-original-title="" title="">
+							<a tabindex="-1" target="_blank" href="https://passport.escience.cn/help_https.jsp"></a>	
+					</span>
+	           		<input tabindex="2" type="password" id="password" placeholder="Password" name="password" value="">
+	           		<span class="error">
+						
+					</span>
+				</div>
+				</div>
+				<input type="checkbox" name="remember" id="remember" value="yes" style="display:none">
+            </div>   
+            <div class="cst-controls">
+            	<div class="controls">
+              		<input tabindex="3" type="submit" class="btn long btn-primary" value="Sign In">
+              		<a tabindex="4" class="cst-forget" href="https://passport.escience.cn/findPsw.do?act=stepOne" target="_blank">Forgot password?</a>
+              	</div>
+            </div>
+            
+		</form>
+	</div>
+	<script type="text/javascript" src="./jquery-1.7.2.min(1).js"></script>
+	<script type="text/javascript" src="./jquery.validate.min(1).js"></script>
+	<script type="text/javascript" src="./bootstrap.min.js"></script>
+	<script type="text/javascript" src="./oauth.js"></script> 
+	<script type="text/javascript">
+	var showValidCode="false";
+	if(showValidCode=="true"||showValidCode==true){
+		var oauthUrl=window.location.href;
+		oauthUrl=oauthUrl.replace("theme=csp","theme=full");
+		window.parent.window.location.href=oauthUrl;
+	}
+	
+	$(document).ready(function(){
+		islogin();
+		function islogin(){
+			var login = $("#login").val();
+			if(login=='true'){
+				$(".cst-container").hide();
+				$(".cst-container-logined").show();
+				$("#loginForm").submit();
+			}
+		};
+		
+		$("#loginForm").validate({
+			submitHandler: function(form){
+				var ff = new Object();
+				ff.userName=$("input[name='userName']").val();
+				ff.password=$("input[name='password']").val();
+				ff.pageinfo="checkPassword";
+				ff.clientId=request('client_id');
+				ff.clientName='中科院国际会议服务平台';
+				ff._csrf=$("input[name='_csrf']").val();
+				$.ajax({
+					url:"authorize" ,
+					data:ff,
+					type:"post",
+					dataType:"json", 
+					success : function(data){
+						if(data.status=='true'){
+							form.submit();
+							return;
+						}
+						
+						if(data.showValidCode==true){
+							var oauthUrl=window.location.href;
+							oauthUrl=oauthUrl.replace("theme=csp","theme=full");
+							window.parent.window.location.href=oauthUrl;
+							return;
+						}
+						
+						showErrorMsg(data.status);
+					}
+				});
+			},
+			onsubmit:true,
+			rules:{
+				userName:{required: true},
+				password:{required:true/*,minlength:8*/ }
+			},
+			messages:{
+				userName:{required:"CSTCloud ID is required", email:'CSTCloud ID should be an email'},
+				password:{required:"Password is required"
+					/*,	minlength:"Try one with at least 8 characters."*/ 
+					}
+			},
+			errorPlacement:function(error, element){
+				error.appendTo(element.next('.error'));
+			}
+		});
+		respond.update();
+	});
+	</script>
+
+
+
+	
+
+
+
+
+
+ 
+
+
+<script type="text/javascript">
+		//这里是显示已经登录passport，但该oauth应用不支持情况的提示，暂时屏蔽
+		/* var status="";
+		if(status){
+			if(status=="coremail_only"){
+				showErrorMsg('account.nosupport');
+			}else{
+				showErrorMsg('account.nosupport.needVerified');
+			}
+		}
+		 */
+		
+		function showErrorMsg(status,insertFunction){
+			var errorMsg="";
+			
+			if(status=="coremail_only"){
+				status='account.nosupport';
+			}else if(status=="app_grant_failed"){
+				status='account.grant.noPermission';
+			}else if(status=="idcard_need_verified"||status=="not_found_mail_account"||status=="mail_need_verified"||status=="phone_need_verified"){
+				status='account.nosupport.needVerified';
+			}else if(status=="arp_unbounded"){
+				status='account.nosupport.needBindArp';
+			}
+			
+			
+			 if(status=='user.expired'){
+					errorMsg='This Account is expired!';
+				}else if(status=='account.nosupport'){
+					errorMsg='This account can not sign in to this app';
+				}else if(status=='account.nosupport.needVerified'){
+					errorMsg='Please log in after the <a href="/show.do?act=showRealNamePage" target="_blank" >real name</a> is completed';
+				}else if(status=='account.grant.noPermission'||status=='app_grant_failed'){
+					errorMsg='Authorize error';
+				}else if(status=='account.nosupport.needBindArp'){
+					errorMsg='The current account is not bound to the ARP account';
+				}else if(status=='user.locked'){
+					errorMsg='This Account is locked!';
+				}else if(status=='user.stop'){
+					errorMsg='This Account is stop already!';
+				}else{
+					errorMsg='CSTCloud ID or password is incorrect.';
+				}
+			 
+			 if(!insertFunction){
+				$("input[name='userName']").next(".error").html("<label class='error' for='userName' generated='true' style='display: inline;'>"+errorMsg+"</label>");
+			 }else{
+				 insertFunction(errorMsg);
+			 }
+			
+		}
+</script></body></html>
